@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Homework_30</title>
+</head>
+<body>
+
+    <header></header>
+    <main>
+        <section class="hamburger container">
+            <!-- Hamburger choosing -->
+            <h1 class="hamburger__heading_1">Choose your Hamburger</h1>
+
+            <section class="hamburger__choose">
+                <article class="hamburger__small">
+                    <h2>Small Hamburger</h2>
+                    <img src="/assets/img/hamburger_small.jpg" alt="small hamburger" srcset="">
+                    <button type="button" class="choose__size" value="small">Choose small hamburger</button>
+                </article>
+                <article class="hamburger__large">
+                    <h2>Large Hamburger</h2>
+                    <img src="/assets/img/hamburger_large.jpg" alt="large hamburger" srcset="">
+                    <button type="button" class="choose__size" value="large">Choose large hamburger</button>
+                </article>
+            </section>
+            
+            <!-- Stuff section -->
+            <h3 class="hamburger__heading_2">Any stuff for your hamburger?</h3>
+            
+            <section class="hamburger__stuff stuff">
+                <article class="stuff__cheese">
+                    <input type="radio" name="choose__stuff" id="cheese" value="cheese">
+                    <label for="cheese">Cheese</label>
+                </article>
+                <article class="stuff__salad">
+                    <input type="radio" name="choose__stuff" id="salad" value="salad">
+                    <label for="salad">Salad</label>
+                </article>
+                <article class="stuff__potato">
+                    <input type="radio" name="choose__stuff" id="potato" value="potato">
+                    <label for="potato">Potato</label>
+                </article>
+                <article class="stuff__none">
+                    <input type="radio" name="choose__stuff" id="noStuff" value="None">
+                    <label for="noStuff">None</label>
+                </article>
+            </section>
+            
+            <!-- Topping section -->
+            <h3 class="hamburger__heading_3">Any topping for your hamburger?</h3>
+
+            <section class="hamburger__topping topping">
+                <article class="topping__mayo">
+                    <input type="checkbox" name="choose__topping" id="mayo" value="mayo">
+                    <label for="mayo">Mayo</label>
+                </article>    
+                <article class="topping__sauce">
+                    <input type="checkbox" name="choose__topping" id="sauce" value="sauce">
+                    <label for="sauce">Sauce</label>
+                </article>
+            </section>
+
+            <section class="hamburger__checkPrice">
+                <button type="button">Calculate price/calories</button>
+            </section>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="index.js"></script>
+</body>
+</html>

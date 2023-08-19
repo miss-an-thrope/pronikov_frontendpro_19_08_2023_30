@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.hamburger__heading_1 {
+    margin: 10px 0 20px 0;
+    font-size: 50px;
+}
+
+.hamburger__choose {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hamburger__small {
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger__large {
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger__heading_2 {
+    display: none;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.hamburger__stuff{
+    display: none;
+}
+
+.hamburger__heading_3 {
+    display: none;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.hamburger__topping{
+    display: none;
+}
+
+.hamburger__checkPrice {
+    display: none;
+}
+
+.hamburger__checkPrice{
+    display: none;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
